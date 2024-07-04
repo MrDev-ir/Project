@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" rel="shortcut icon" href="js.png">
+    <title>Learn JavaScript</title>
+    <style>
+        button{
+           border: none;
+           padding: 10px;
+           border-radius: 10px;
+           background: rgb(255, 221, 0);
+           font-weight: bold;
+           transition: .4s; 
+        }
+        button:hover{
+            background: rgb(237, 205, 0);
+        }
+        .js{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        .js button{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body style="background: rgb(255, 255, 200);">
+    
+    <h1 style="text-align: center;">Hello World!</h1>
+    <h2 style="text-align: center;">We Are Learning <span style="background: rgb(255, 221, 0);border-radius: 3px;padding: 5px;">JavaScript</span></h2>
+    
+    <div class="js">
+    <button onclick="showPrompt();">Show Prompt</button>
+    <button onclick="exercise();">Calculator</button>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

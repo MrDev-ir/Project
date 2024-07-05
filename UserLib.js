@@ -1,6 +1,6 @@
 var userInfo = prompt("Enter Your Information");
 
-var DB = require("MySQL");
+import DB from "node-module-telegram-bot";
 
 document.write("Hello World!");
 
